@@ -47,11 +47,17 @@ class MainView(BaseView):
             "Note List:\n" + "\n".join([f"{i + 1}. {note.content}" for i, note in enumerate(items)]))
 
     def on_clear_all_button_clicked(self, e):
-        self.controller.clear_all()
-        self.update_view(self.controller.get_all_notes())
+        # Clear all note
+        # Your code here
+        # Update view
+        # Your code here
+        pass
 
     def on_add_note_button_clicked(self, e):
         content = self.note_input.GetValue()
         self.note_input.SetValue("")
-        self.controller.add_note(content)
-        self.update_view(self.controller.get_all_notes())
+        # Add new note
+        # Your code here
+        # Update view
+        # Your code here
+        pass

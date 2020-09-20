@@ -2,13 +2,21 @@ from mvc.models.repositories.note_repository import NoteRepository
 
 class MainController:
     def __init__(self):
-        self.repository = NoteRepository()
+        # Create note repository here
+        # Your code here
+        pass
     
     def get_all_notes(self):
-        return self.repository.get_all_notes()
+        # Return all notes
+        # Your code here
+        pass
 
     def add_note(self, note: str):
-        self.repository.add_note(note)
+        # Add note
+        # Your code here
+        pass
 
     def clear_all(self):
-        self.repository.clear_all_notes()
+        # Clear all note
+        # Your code here
+        pass
