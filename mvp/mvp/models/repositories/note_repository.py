@@ -5,10 +5,7 @@ from mvp.models.entities.note import Note
 class NoteRepository:
 
     def __init__(self):
-        self.notes = [
-            Note("Sample Note 1"),
-            Note("Sample Note 2")
-        ]
+        self.notes = []
 
     def add_note(self, content: str):
         note = Note(content)
